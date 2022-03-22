@@ -1,0 +1,169 @@
+#titleh {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  text-align: left;
+}
+form > div.input-group.mb-3 {
+  box-shadow: 10px 10px 32px 0 rgb(0 0 0 / 30%);
+}
+form .form-control,
+form .form-select {
+  width: 273px;
+}
+form .card {
+  margin-bottom: 20px;
+}
+form .form-check-label,
+form .form-check-input {
+  cursor: pointer;
+}
+form .slidecontainer {
+  width: 250px;
+  margin: 15px 0;
+  display: flex;
+}
+form .slidecontainer input{
+  margin: 0 10px;
+}
+form .slidecontainer input:hover {
+  cursor: pointer;
+}
+form .input-group.invalid > *,
+form .card-body.invalid {
+  background-color: #ff9a9a;
+  color: red;
+}
+.btn-custom.primary.disabled {
+  cursor: not-allowed !important;
+  background-color: #a8a8a8 !important;
+  border-color: #a8a8a8 !important;
+  color: #fff !important;
+}
+/* ============================================================ */
+/* Header */
+header {
+    background-image: url(../images/tp_12.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+header > .layer {
+  background: linear-gradient(129deg, #fff, rgba(253,253,253,0.94) 26%, rgba(216,216,216,0));
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+header > .container {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+header,
+header > div {
+  height: 34vw;
+  min-height: 180px;
+  max-height: 360px;
+}
+.header-logo {
+  width: 180px;
+  height: 100px;
+  position: absolute;
+  top: 4%;
+}
+header nav {
+  justify-content: center;
+  z-index: 1;
+}
+header nav a.nav-link {
+  color: #000;
+  font-weight: bold;
+  transition: all .3s ease;
+  margin: 0 3vw;
+}
+header nav a.nav-link:hover {
+  color: #fff;
+  background-color: #f91c3d;
+  font-weight: bold;
+}
+/* ============================================================ */
+/* General Items */
+.input-group-text {
+  min-width: 82px;
+}
+.btn-custom {
+  color: #fff;
+  min-width: 100px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  height: 40px;
+  border-radius: 20px;
+  font-weight: 500;
+  padding: 6px 0px;
+  letter-spacing: 1px;
+  box-shadow: 10px 10px 32px 0 rgb(0 0 0 / 30%);
+}
+.btn-custom.primary {
+  background-color: #f91c3d;
+  border-color: #f91c3d;
+}
+.btn-custom.primary:hover {
+  background-color: #fa3c59;
+  border-color: #fa3c59;
+  color: #fff;
+}
+.btn-custom.back {
+  background-color: #1ca0f9;
+  border-color: #1ca0f9;
+}
+.btn-custom.back:hover {
+  border-color: #1880c5;
+  background-color: #1880c5;
+  color: #fff;
+}
+button { 
+  border-width: 0 !important;
+}
+/* ============================================================ */
+/* Footer */
+footer {
+  background-color: #2e3139;
+  color: rgb(231, 226, 226);
+}
+footer a,
+footer li {
+  font-size: 16px;
+}
+footer a {
+  color: #fff !important;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+@media screen and (max-width: 767px) {
+  header .header-logo {
+    width: 30vw;
+    height: auto;
+    position: absolute;
+    top: 2%;
+    left: 33px;
+    max-width: 180px;
+  }
+  .card-body > .row > .row.col-12.col-lg-6 {
+    /* padding-left: 0; */
+    padding-right: 0;
+  }
+  .card-body > .row > .row.col-12.col-lg-6 > div {
+    padding: 0 5px;
+  }
+  .card-body > .row > .row.col-12.col-lg-6 > div:first-child {
+    padding-right: 0;
+  }
+  .card-body > .row > .row.col-12.col-lg-6 > div:last-child {
+    padding-left: 0;
+  }
+}
